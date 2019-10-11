@@ -1,6 +1,9 @@
 .borderTest {
   border: 1px solid black;
 }
+.btnStyle {
+  background-color: #23293B;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -207,16 +210,25 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home .intro img {
+  width: 98%;
+  border-radius: 5px;
+  margin: 0 2%;
+}
 .home .intro h2 {
   padding: 15px;
 }
 .home .intro p {
   padding: 0 15px;
 }
+.home .intro .introText {
+  margin: 0 2%;
+}
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  margin: 0 2%;
 }
 .home .space-images img {
   width: 28%;
@@ -226,6 +238,7 @@ footer {
 }
 .home .visit-planets {
   padding: 15px;
+  margin: 0 2%;
 }
 .home .visit-planets h3 {
   margin-top: 11px;
@@ -234,7 +247,7 @@ footer {
   margin-top: 13px;
 }
 .home .walk {
-  margin-top: 60px;
+  margin: 60px 2% 0 2%;
   border-top: 1px solid #dee2e6;
   padding: 50px 60px;
   display: flex;
@@ -248,6 +261,9 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  border: 1px solid black;
 }
 .home .walk .walk-img {
   width: 46%;

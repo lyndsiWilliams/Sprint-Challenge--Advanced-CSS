@@ -4,6 +4,12 @@
 
   .intro {
 
+    img {
+      width: 98%;
+      border-radius: 5px;
+      margin: 0 2%;
+    }
+
     h2 {
       padding: 15px;
     }
@@ -12,12 +18,16 @@
       padding:0 15px;
     }
   
+    .introText {
+      margin: 0 2%;
+    }
   }
 
   .space-images {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin: 0 2%;
 
     img {
       width: 28%;
@@ -29,6 +39,7 @@
 
   .visit-planets {
     padding: 15px;
+    margin: 0 2%;
 
     h3 {
       margin-top: 11px;
@@ -40,7 +51,7 @@
   }
 
   .walk {
-    margin-top: 60px;
+    margin: 60px 2% 0 2%;
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
     display: flex;
@@ -58,6 +69,7 @@
       }
 
       .btn {
+        .borderTest();
       }
     }
 
