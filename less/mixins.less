@@ -10,6 +10,12 @@
     border: 1px solid black;
 }
 
-.btnStyle{
-    background-color: @header-font-color;
+.btnStyle (@bgColor, @fontColor) {
+    background-color: @bgColor;
+    color: @fontColor;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.8rem;
+    width: 30%;
+    height: 12%;
 }

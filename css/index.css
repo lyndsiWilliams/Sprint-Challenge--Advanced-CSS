@@ -1,9 +1,6 @@
 .borderTest {
   border: 1px solid black;
 }
-.btnStyle {
-  background-color: #23293B;
-}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -184,7 +181,7 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 2% 0;
+  margin: 1% 0;
   width: 50%;
 }
 .navContainer .navBar nav {
@@ -192,7 +189,7 @@ p {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 50%;
   height: 80%;
 }
 .navContainer .navBar nav a {
@@ -263,7 +260,17 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
-  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #23293B;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.8rem;
+  width: 30%;
+  height: 12%;
 }
 .home .walk .walk-img {
   width: 46%;
