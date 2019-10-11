@@ -197,6 +197,18 @@ p {
   text-decoration: none;
   color: #454A59;
 }
+@media (max-width: 500px) {
+  .navContainer {
+    width: 100%;
+  }
+  .navContainer .navBar {
+    width: 100%;
+  }
+  .navContainer .navBar nav {
+    width: 80%;
+    margin: 2%;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
