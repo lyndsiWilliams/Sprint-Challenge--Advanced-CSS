@@ -297,3 +297,39 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  .home .intro img {
+    width: 100%;
+    margin: 0;
+  }
+  .home .intro .introText {
+    margin: 0;
+  }
+  .home .space-images img .sky {
+    display: none;
+  }
+  .home .space-images img .launch {
+    display: none;
+  }
+  .home .visit-planets {
+    margin: 0;
+  }
+  .home .walk {
+    flex-flow: column-reverse;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 3% 0;
+  }
+  .home .walk-text {
+    width: 100%;
+    margin: 0;
+  }
+  .home .walk-img {
+    width: 100%;
+    margin: 0;
+  }
+  .home .walk-img img {
+    width: 100%;
+  }
+}
