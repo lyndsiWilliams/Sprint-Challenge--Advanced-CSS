@@ -1,1 +1,26 @@
 // Mixins Here
+.displayFlex(@direction, @justify, @align){
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.borderTest {
+    border: 1px solid black;
+}
+
+.btnStyle (@bgColor, @fontColor) {
+    background-color: @bgColor;
+    color: @fontColor;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.8rem;
+    width: 30%;
+    height: 12%;
+
+    &:hover{
+        background-color: @fontColor;
+        color: @bgColor;
+      }
+}

@@ -1,1 +1,47 @@
 // Navigation code here
+
+.navContainer {
+    .displayFlex(column, center, center);
+    background-color: @nav-bg;
+    border: 1px solid @nav-border;
+    height: 30%;
+    width: 100%;
+
+    .navBar {
+        .displayFlex(row, center, center);
+        margin: 1% 0;
+        width: 50%;
+        // .borderTest();
+
+        nav {
+            .displayFlex(row, space-between, center);
+            width: 50%;
+            height: 80%;
+            // .borderTest();
+
+            a{
+                font-size: 1.6rem;
+                text-decoration: none;
+                color: @nav-font;
+            }
+        }
+    }
+}
+
+@media @phone {
+    .navContainer{
+        width: 100%;
+
+        h1 {
+            margin-top: 2%;
+        }
+        .navBar{
+            width: 100%;
+    
+            nav {
+                width: 80%;
+                margin: 2%;
+            }
+        }
+    }
+}
